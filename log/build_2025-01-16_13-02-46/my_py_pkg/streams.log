@@ -1,0 +1,43 @@
+[1.529s] Invoking command in '/home/lenovo/Desktop/ros2_ws/build/my_py_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lenovo/Desktop/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lenovo/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/lenovo/Desktop/ros2_ws/build/my_py_pkg/build
+[2.052s] running develop
+[2.395s] Removing /home/lenovo/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my-py-pkg.egg-link (link to .)
+[2.469s] Invoked command in '/home/lenovo/Desktop/ros2_ws/build/my_py_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lenovo/Desktop/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lenovo/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/lenovo/Desktop/ros2_ws/build/my_py_pkg/build
+[2.471s] Invoking command in '/home/lenovo/Desktop/ros2_ws/src/my_py_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lenovo/Desktop/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lenovo/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/lenovo/Desktop/ros2_ws/build/my_py_pkg/build install --record /home/lenovo/Desktop/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data --force
+[2.921s] running egg_info
+[2.955s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[2.955s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[2.955s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[2.956s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[2.956s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[3.016s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[3.018s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[3.019s] running build
+[3.019s] running build_py
+[3.019s] copying my_py_pkg/robot_center.py -> /home/lenovo/Desktop/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[3.020s] copying my_py_pkg/my_first_node.py -> /home/lenovo/Desktop/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[3.020s] copying my_py_pkg/template_node.py -> /home/lenovo/Desktop/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[3.021s] copying my_py_pkg/robot_state_publisher.py -> /home/lenovo/Desktop/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[3.021s] running install
+[3.036s] running install_lib
+[3.087s] creating /home/lenovo/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[3.087s] copying /home/lenovo/Desktop/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/robot_center.py -> /home/lenovo/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[3.087s] copying /home/lenovo/Desktop/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/lenovo/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[3.087s] copying /home/lenovo/Desktop/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/lenovo/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[3.087s] copying /home/lenovo/Desktop/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/template_node.py -> /home/lenovo/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[3.088s] copying /home/lenovo/Desktop/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/robot_state_publisher.py -> /home/lenovo/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[3.088s] byte-compiling /home/lenovo/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/robot_center.py to robot_center.cpython-312.pyc
+[3.090s] byte-compiling /home/lenovo/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-312.pyc
+[3.091s] byte-compiling /home/lenovo/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/__init__.py to __init__.cpython-312.pyc
+[3.091s] byte-compiling /home/lenovo/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/template_node.py to template_node.cpython-312.pyc
+[3.091s] byte-compiling /home/lenovo/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/robot_state_publisher.py to robot_state_publisher.cpython-312.pyc
+[3.092s] running install_data
+[3.093s] copying resource/my_py_pkg -> /home/lenovo/Desktop/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[3.093s] copying package.xml -> /home/lenovo/Desktop/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[3.093s] running install_egg_info
+[3.137s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/lenovo/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info
+[3.141s] running install_scripts
+[3.406s] Installing py_node_updated script to /home/lenovo/Desktop/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.406s] Installing robot_center script to /home/lenovo/Desktop/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.406s] Installing state_publisher script to /home/lenovo/Desktop/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.407s] writing list of installed files to '/home/lenovo/Desktop/ros2_ws/build/my_py_pkg/install.log'
+[3.470s] Invoked command in '/home/lenovo/Desktop/ros2_ws/src/my_py_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lenovo/Desktop/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lenovo/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/lenovo/Desktop/ros2_ws/build/my_py_pkg/build install --record /home/lenovo/Desktop/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data --force

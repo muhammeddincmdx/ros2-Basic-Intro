@@ -1,0 +1,4 @@
+[console_scripts]
+py_node_updated = my_py_pkg.my_first_node:main
+robot_center = my_py_pkg.robot_center:main
+state_publisher = my_py_pkg.robot_state_publisher:main

@@ -1,0 +1,19 @@
+[1.258s] Invoking command in '/home/lenovo/Desktop/ros2_ws/build/my_py_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lenovo/Desktop/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lenovo/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lenovo/Desktop/ros2_ws/build/my_py_pkg/build --no-deps symlink_data
+[1.722s] running develop
+[2.064s] running egg_info
+[2.088s] writing my_py_pkg.egg-info/PKG-INFO
+[2.088s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[2.088s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[2.089s] writing requirements to my_py_pkg.egg-info/requires.txt
+[2.089s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[2.142s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[2.143s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[2.173s] running build_ext
+[2.174s] Creating /home/lenovo/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my-py-pkg.egg-link (link to .)
+[2.175s] Installing py_node_updated script to /home/lenovo/Desktop/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.175s] Installing robot_center script to /home/lenovo/Desktop/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.176s] Installing state_publisher script to /home/lenovo/Desktop/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.176s] 
+[2.176s] Installed /home/lenovo/Desktop/ros2_ws/build/my_py_pkg
+[2.177s] running symlink_data
+[2.369s] Invoked command in '/home/lenovo/Desktop/ros2_ws/build/my_py_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lenovo/Desktop/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lenovo/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lenovo/Desktop/ros2_ws/build/my_py_pkg/build --no-deps symlink_data
